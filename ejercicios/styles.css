@@ -1,0 +1,39 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+.padre{
+    background: blueviolet;
+    border-style: dotted;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center ;
+    /* align-items: center; */
+    align-content: stretch;
+    height: 600px;
+}
+
+.hijo{
+        background: coral;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        color: brown;
+        border-style: dotted;
+        border-color: black;
+        width: 20%;
+        font-weight: bold;
+        height: 100px;
+}
+
+.A{
+    flex-grow: 1;
+    align-self:center;
+}
+
+.B{
+    flex-grow: 3;
+    align-self:center;
+    order: 3;
+}
